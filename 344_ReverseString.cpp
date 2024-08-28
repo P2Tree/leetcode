@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -32,6 +33,15 @@ void printString(string prefix, vector<char> &s) {
 }
 
 int main() {
+
+  // project solution
+  vector<char> s = {'a', 'b', 'c'};
+  printString("before", s);
+  reverse(s.begin(), s.end());
+  printString("after", s);
+
+  // algorithm solution
+
   vector<char> s0 = {};
   printString("before", s0);
   reverseString(s0);

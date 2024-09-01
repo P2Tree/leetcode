@@ -85,6 +85,17 @@ public:
   }
 
   ListNode *getHeadNode() const { return head; }
+  ListNode *getNode(int index) const {
+    int i = 0;
+    ListNode *p = head;
+    while (p != nullptr) {
+      if (i == index)
+        return p;
+      i++;
+      p = p->next;
+    }
+    return nullptr;
+  }
 
 private:
   ListNode *head;

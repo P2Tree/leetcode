@@ -22,17 +22,56 @@ static void print(ListNode *head) {
 
 class List {
 public:
-  List(std::vector<int> input) : head(nullptr) {
-    if (input.size() == 0)
+  List(std::vector<int> &values) : head(nullptr) {
+    if (values.size() == 0)
       return;
-    head = new ListNode(input[0]);
-    if (input.size() == 1)
+    head = new ListNode(values[0]);
+    if (values.size() == 1)
       return;
     ListNode *p = head;
-    for (auto i = 1; i < input.size(); ++i) {
-      ListNode *node = new ListNode(input[i]);
+    for (auto i = 1; i < values.size(); ++i) {
+      ListNode *node = new ListNode(values[i]);
       p->next = node;
       p = node;
+    }
+  }
+
+  List(const std::initializer_list<int> &values) : head(nullptr) {
+    if (values.size() == 0)
+      return;
+    head = new ListNode();
+    ListNode *p = head;
+    for (auto i : values) {
+      ListNode *node = new ListNode(i);
+      p->next = node;
+      p = node;
+    }
+    p = head;
+    head = head->next;
+    delete p;
+  }
+
+  List(ListNode *h) : head(nullptr) {
+    if (h == nullptr)
+      return;
+    head = new ListNode();
+    ListNode *p = head;
+    while (h != nullptr) {
+      p->next = new ListNode(h->val);
+      p = p->next;
+      h = h->next;
+    }
+    p = head;
+    head = head->next;
+    delete p;
+  }
+
+  ~List() {
+    ListNode *p;
+    while (head != nullptr) {
+      p = head;
+      head = head->next;
+      delete p;
     }
   }
 

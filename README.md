@@ -18,6 +18,7 @@
 | 237  | delete node in a linked list                       | Middle     | List          | Star |
 | 242  | valid anagram                                      | Easy       | Map           |      |
 | 344  | reverse string                                     | Easy       | 2-Pointer     |      |
+| 349  | intersection of two arrays                         | Easy       | Hash          |      |
 | 394  | decode string                                      | Middle     | Stack         | Star |
 | 541  | reverse string ii                                  | Easy       | 2-Pointer     |      |
 | 704  | binary search                                      | Easy       | Search        | Star |

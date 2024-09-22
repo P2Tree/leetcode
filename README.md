@@ -2,6 +2,7 @@
 
 | #    | Title                                              | Difficulty | Solution      | Mark |
 | ---- | -------------------------------------------------- | ---------- | ------------- | ---- |
+| 1    | two sum                                            | Easy       | Hash          |      |
 | 9    | palindrome number                                  | Easy       |               | Star |
 | 20   | valid parentheses                                  | Easy       | Stack         |      |
 | 21   | merge two sorted lists                             | Easy       | List          |      |

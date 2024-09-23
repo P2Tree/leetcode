@@ -11,7 +11,7 @@
 | 28   | find the index of the first occurrence in a string | Easy       | Algorithm:KMP | Star |
 | 59   | spiral matrix 2                                    | Middle     | Simulation    |      |
 | 86   | partition list                                     | Middle     | List          |      |
-| 94   | binary tree inorder traversal                      | Easy       | BinaryTree    |      |
+| 94   | binary tree inorder traversal                      | Easy       | BinaryTree    | Star |
 | 144  | binary tree preorder traversal                     | Easy       | BinaryTree    |      |
 | 145  | binary tree postorder traversal                    | Easy       | BinaryTree    |      |
 | 151  | reverse words in a string                          | Middle     | String        | Star |

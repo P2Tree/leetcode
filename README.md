@@ -12,8 +12,8 @@
 | 59   | spiral matrix 2                                    | Middle     | Simulation    |      |
 | 86   | partition list                                     | Middle     | List          |      |
 | 94   | binary tree inorder traversal                      | Easy       | BinaryTree    | Star |
-| 144  | binary tree preorder traversal                     | Easy       | BinaryTree    |      |
-| 145  | binary tree postorder traversal                    | Easy       | BinaryTree    |      |
+| 144  | binary tree preorder traversal                     | Easy       | BinaryTree    | Star |
+| 145  | binary tree postorder traversal                    | Easy       | BinaryTree    | Star |
 | 151  | reverse words in a string                          | Middle     | String        | Star |
 | 155  | min stack                                          | Easy       | Stack         |      |
 | 206  | reverse linked list                                | Easy       | List          | Star |

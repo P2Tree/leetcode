@@ -1,11 +1,13 @@
 #include "Utils/BinaryTree.h"
+#include <stack>
 #include <vector>
 
 using namespace std;
 
 class Solution {
 public:
-  vector<int> postorderTraversal(TreeNode *root) {
+  // Recursion
+  vector<int> postorderTraversal_1(TreeNode *root) {
     vector<int> ret;
     traversal(root, ret);
     return ret;
@@ -16,6 +18,25 @@ public:
     traversal(node->left, ret);
     traversal(node->right, ret);
     ret.push_back(node->val);
+  }
+  // Iteration
+  vector<int> postorderTraversal(TreeNode *root) {
+    if (root == nullptr)
+      return {};
+    vector<int> ret;
+    stack<TreeNode *> st;
+    st.push(root);
+    while (!st.empty()) {
+      auto *cur = st.top();
+      ret.push_back(cur->val);
+      st.pop();
+      if (cur->left)
+        st.push(cur->left);
+      if (cur->right)
+        st.push(cur->right);
+    }
+    std::reverse(ret.begin(), ret.end());
+    return ret;
   }
 };
 

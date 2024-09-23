@@ -64,13 +64,15 @@ public:
   }
 
   // output order is layer traversal order
-  void print() const {
+  std::vector<int> layerOrderTraverse() const {
     std::queue<TreeNode *> q;
     q.push(root);
+    std::vector<int> order;
     while (!q.empty()) {
       auto *p = q.front();
       if (p != nullptr) {
         std::cout << "node val: " << p->val;
+        order.push_back(p->val);
         if (p->left != nullptr) {
           std::cout << ", left child-node val: " << p->left->val;
           q.push(p->left);
@@ -87,9 +89,89 @@ public:
       q.pop();
       std::cout << std::endl;
     }
+    return order;
+  }
+
+  std::vector<int> preOrderTraverse() {
+    std::vector<int> order;
+    preOrder(root, order);
+    return order;
+  }
+  std::vector<int> inOrderTraverse() {
+    std::vector<int> order;
+    inOrder(root, order);
+    return order;
+  }
+  std::vector<int> postOrderTraverse() {
+    std::vector<int> order;
+    postOrder(root, order);
+    return order;
   }
 
   TreeNode *getRoot() const { return root; }
+
+private:
+  void preOrder(TreeNode *node, std::vector<int> &order) {
+    if (node == nullptr)
+      return;
+    std::cout << "node val: " << node->val;
+    order.push_back(node->val);
+    if (node->left != nullptr) {
+      std::cout << ", left child-node val: " << node->left->val;
+    } else {
+      std::cout << ", left child-node empty";
+    }
+    if (node->right != nullptr) {
+      std::cout << ", right child-node val: " << node->right->val;
+    } else {
+      std::cout << ", right child-node empty";
+    }
+    std::cout << std::endl;
+
+    preOrder(node->left, order);
+    preOrder(node->right, order);
+  }
+  void inOrder(TreeNode *node, std::vector<int> &order) {
+    if (node == nullptr)
+      return;
+    inOrder(node->left, order);
+
+    std::cout << "node val: " << node->val;
+    order.push_back(node->val);
+    if (node->left != nullptr) {
+      std::cout << ", left child-node val: " << node->left->val;
+    } else {
+      std::cout << ", left child-node empty";
+    }
+    if (node->right != nullptr) {
+      std::cout << ", right child-node val: " << node->right->val;
+    } else {
+      std::cout << ", right child-node empty";
+    }
+    std::cout << std::endl;
+
+    inOrder(node->right, order);
+  }
+  void postOrder(TreeNode *node, std::vector<int> &order) {
+    if (node == nullptr)
+      return;
+    postOrder(node->left, order);
+    postOrder(node->right, order);
+
+    std::cout << "node val: " << node->val;
+    order.push_back(node->val);
+    if (node->left != nullptr) {
+      std::cout << ", left child-node val: " << node->left->val;
+    } else {
+      std::cout << ", left child-node empty";
+    }
+    if (node->right != nullptr) {
+      std::cout << ", right child-node val: " << node->right->val;
+    } else {
+      std::cout << ", right child-node empty";
+    }
+    std::cout << std::endl;
+  }
 
 private:
   TreeNode *root;

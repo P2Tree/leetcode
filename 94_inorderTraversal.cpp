@@ -20,7 +20,7 @@ public:
     traversal(node->right, ret);
   }
   // Iteration
-  vector<int> inorderTraversal(TreeNode *root) {
+  vector<int> inorderTraversal_2(TreeNode *root) {
     vector<int> ret;
     stack<TreeNode *> st;
     if (root == nullptr)
@@ -31,10 +31,32 @@ public:
         st.push(cur);
         cur = cur->left;
       } else {
-        cur = st.top();
-        ret.push_back(cur->val);
+        auto *node = st.top();
+        ret.push_back(node->val);
         st.pop();
-        cur = cur->right;
+        if (node->right != nullptr)
+          cur = node->right;
+      }
+    }
+    return ret;
+  }
+  vector<int> inorderTraversal(TreeNode *root) {
+    vector<int> ret;
+    stack<TreeNode *> st;
+    if (root == nullptr)
+      return {};
+    TreeNode *cur = root;
+    while (!st.empty() || cur != nullptr) {
+      while (cur != nullptr) {
+        st.push(cur);
+        cur = cur->left;
+      }
+
+      auto *node = st.top();
+      ret.push_back(node->val);
+      st.pop();
+      if (node->right != nullptr) {
+        cur = node->right;
       }
     }
     return ret;

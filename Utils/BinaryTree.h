@@ -134,6 +134,8 @@ public:
 
   TreeNode *getRoot() const { return root; }
 
+  operator TreeNode *() const { return root; }
+
 private:
   void preOrder(TreeNode *node, std::vector<int> &order) {
     if (node == nullptr)

@@ -29,6 +29,8 @@
 | 349  | intersection of two arrays                         | Easy       | Hash          |      |
 | 394  | decode string                                      | Middle     | Stack         | Star |
 | 541  | reverse string ii                                  | Easy       | 2-Pointer     |      |
+| 589  | n ary tree preorder traversal                      | Easy       | Tree          |      |
+| 590  | n ary tree postorder traversal                     | Easy       | Tree          |      |
 | 704  | binary search                                      | Easy       | Search        | Star |
 | 977  | squares of a sorted array                          | Easy       | 2-Pointer     |      |
 | 1002 | find common characters                             | Easy       | Hash          |      |

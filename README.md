@@ -18,6 +18,7 @@
 | 145  | binary tree postorder traversal                    | Easy       | BinaryTree    | Star |
 | 151  | reverse words in a string                          | Middle     | String        | Star |
 | 155  | min stack                                          | Easy       | Stack         |      |
+| 199  | binary tree right side view                        | Middle     | BinaryTree    | Star |
 | 206  | reverse linked list                                | Easy       | List          | Star |
 | 209  | minimum size subarray sum                          | Middle     | 2-Pointer     | Star |
 | 232  | implement queue using stacks                       | Easy       | Stack         | Star |
@@ -48,3 +49,6 @@
 - 394 decode string 是一道有意思的题
   虽然这道题用 stack 很容易就做出来了，但如果深入追究，会发现这个题是一道经典的编译原理算法，是语法解析的一个问题。
   所以这个题可以通过先编写出 BNF 范式，然后编写状态机来实现。
+
+- 199 二叉树的右视图
+  这道题掌握技巧之后其实不难，但这道题是常考题。

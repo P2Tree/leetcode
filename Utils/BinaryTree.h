@@ -48,6 +48,30 @@ public:
       q.pop();
     }
   }
+  BinaryTree(TreeNode *r) : root(nullptr) {
+    if (r == nullptr)
+      return;
+    root = new TreeNode(r->val);
+    std::queue<TreeNode *> in, out;
+    in.push(r);
+    out.push(root);
+    while (!in.empty()) {
+      auto *i = in.front();
+      auto *o = out.front();
+      if (i->left) {
+        o->left = new TreeNode(i->left->val);
+        in.push(i->left);
+        out.push(o->left);
+      }
+      if (i->right) {
+        o->right = new TreeNode(i->right->val);
+        in.push(i->right);
+        out.push(o->right);
+      }
+      in.pop();
+      out.pop();
+    }
+  }
 
   ~BinaryTree() {
     std::queue<TreeNode *> q;

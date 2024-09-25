@@ -21,6 +21,7 @@
 | 199  | binary tree right side view                        | Middle     | BinaryTree    | Star |
 | 206  | reverse linked list                                | Easy       | List          | Star |
 | 209  | minimum size subarray sum                          | Middle     | 2-Pointer     | Star |
+| 226  | invert binary tree                                 | Easy       | BinaryTree    |      |
 | 232  | implement queue using stacks                       | Easy       | Stack         | Star |
 | 237  | delete node in a linked list                       | Middle     | List          | Star |
 | 242  | valid anagram                                      | Easy       | Map           |      |

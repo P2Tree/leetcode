@@ -1,40 +1,41 @@
 # LeetCode
 
-| #    | Title                                              | Difficulty | Solution      | Mark |
-| ---- | -------------------------------------------------- | ---------- | ------------- | ---- |
-| 1    | two sum                                            | Easy       | Hash          |      |
-| 9    | palindrome number                                  | Easy       |               | Star |
-| 20   | valid parentheses                                  | Easy       | Stack         |      |
-| 21   | merge two sorted lists                             | Easy       | List          |      |
-| 26   | remove duplicates from sorted array                | Easy       | 2-Pointer     |      |
-| 27   | emove element                                      | Easy       | 2-Pointer     |      |
-| 28   | find the index of the first occurrence in a string | Easy       | Algorithm:KMP | Star |
-| 59   | spiral matrix 2                                    | Middle     | Simulation    |      |
-| 86   | partition list                                     | Middle     | List          |      |
-| 94   | binary tree inorder traversal                      | Easy       | BinaryTree    | Star |
-| 102  | binary tree level order traversal                  | Middle     | BinaryTree    | Star |
-| 107  | binary tree level order traversal ii               | Middle     | BinaryTree    |      |
-| 144  | binary tree preorder traversal                     | Easy       | BinaryTree    | Star |
-| 145  | binary tree postorder traversal                    | Easy       | BinaryTree    | Star |
-| 151  | reverse words in a string                          | Middle     | String        | Star |
-| 155  | min stack                                          | Easy       | Stack         |      |
-| 199  | binary tree right side view                        | Middle     | BinaryTree    | Star |
-| 206  | reverse linked list                                | Easy       | List          | Star |
-| 209  | minimum size subarray sum                          | Middle     | 2-Pointer     | Star |
-| 226  | invert binary tree                                 | Easy       | BinaryTree    |      |
-| 232  | implement queue using stacks                       | Easy       | Stack         | Star |
-| 237  | delete node in a linked list                       | Middle     | List          | Star |
-| 242  | valid anagram                                      | Easy       | Map           |      |
-| 344  | reverse string                                     | Easy       | 2-Pointer     |      |
-| 349  | intersection of two arrays                         | Easy       | Hash          |      |
-| 394  | decode string                                      | Middle     | Stack         | Star |
-| 541  | reverse string ii                                  | Easy       | 2-Pointer     |      |
-| 589  | n ary tree preorder traversal                      | Easy       | Tree          |      |
-| 590  | n ary tree postorder traversal                     | Easy       | Tree          |      |
-| 704  | binary search                                      | Easy       | Search        | Star |
-| 977  | squares of a sorted array                          | Easy       | 2-Pointer     |      |
-| 1002 | find common characters                             | Easy       | Hash          |      |
-| 3142 | check if grid satisfies conditions                 | Easy       | Simulation    |      |
+| #    | Title                                              | Title CN           | Difficulty | Tag           | Mark |
+| ---- | -------------------------------------------------- | ------------------ | ---------- | ------------- | ---- |
+| 1    | two sum                                            | 两数之和           | Easy       | Hash          |      |
+| 9    | palindrome number                                  |                    | Easy       |               | Star |
+| 20   | valid parentheses                                  | 有效的括号         | Easy       | Stack         |      |
+| 21   | merge two sorted lists                             |                    | Easy       | List          |      |
+| 26   | remove duplicates from sorted array                |                    | Easy       | 2-Pointer     |      |
+| 27   | emove element                                      | 移除元素           | Easy       | 2-Pointer     |      |
+| 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
+| 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
+| 86   | partition list                                     |                    | Middle     | List          |      |
+| 94   | binary tree inorder traversal                      |                    | Easy       | BinaryTree    | Star |
+| 102  | binary tree level order traversal                  | 二叉树层序遍历     | Middle     | BinaryTree    | Star |
+| 104  | maximum depth of binary tree                       | 二叉树深度         | Easy       | BinaryTree    |      |
+| 107  | binary tree level order traversal ii               |                    | Middle     | BinaryTree    |      |
+| 144  | binary tree preorder traversal                     |                    | Easy       | BinaryTree    | Star |
+| 145  | binary tree postorder traversal                    |                    | Easy       | BinaryTree    | Star |
+| 151  | reverse words in a string                          | 翻转字符串里的单词 | Middle     | String        | Star |
+| 155  | min stack                                          |                    | Easy       | Stack         |      |
+| 199  | binary tree right side view                        |                    | Middle     | BinaryTree    | Star |
+| 206  | reverse linked list                                | 翻转链表           | Easy       | List          | Star |
+| 209  | minimum size subarray sum                          | 长度最小子数组     | Middle     | 2-Pointer     | Star |
+| 226  | invert binary tree                                 | 翻转二叉树         | Easy       | BinaryTree    |      |
+| 232  | implement queue using stacks                       | 用栈实现队列       | Easy       | Stack         | Star |
+| 237  | delete node in a linked list                       |                    | Middle     | List          | Star |
+| 242  | valid anagram                                      | 字母异位词         | Easy       | Map           |      |
+| 344  | reverse string                                     | 翻转字符串         | Easy       | 2-Pointer     |      |
+| 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
+| 394  | decode string                                      |                    | Middle     | Stack         | Star |
+| 541  | reverse string ii                                  | 翻转字符串 2       | Easy       | 2-Pointer     |      |
+| 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
+| 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
+| 704  | binary search                                      | 二分查找           | Easy       | Search        | Star |
+| 977  | squares of a sorted array                          | 有序数组的平方     | Easy       | 2-Pointer     |      |
+| 1002 | find common characters                             | 查找常用字符       | Easy       | Hash          |      |
+| 3142 | check if grid satisfies conditions                 |                    | Easy       | Simulation    |      |
 
 ## 笔记
 

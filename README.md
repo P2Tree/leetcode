@@ -30,6 +30,7 @@
 | 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
 | 394  | decode string                                      |                    | Middle     | Stack         | Star |
 | 541  | reverse string ii                                  | 翻转字符串 2       | Easy       | 2-Pointer     |      |
+| 559  | maximum depth of n ary tree                        | 树的深度           | Easy       | Tree          |      |
 | 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
 | 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
 | 704  | binary search                                      | 二分查找           | Easy       | Search        | Star |

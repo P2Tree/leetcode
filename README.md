@@ -15,7 +15,7 @@
 | 94   | binary tree inorder traversal                      |                    | Easy       | BinaryTree    | Star |
 | 102  | binary tree level order traversal                  | 二叉树层序遍历     | Middle     | BinaryTree    | Star |
 | 104  | maximum depth of binary tree                       | 二叉树深度         | Easy       | BinaryTree    |      |
-| 107  | binary tree level order traversal ii               |                    | Middle     | BinaryTree    |      |
+| 107  | binary tree level order traversal 2                |                    | Middle     | BinaryTree    |      |
 | 144  | binary tree preorder traversal                     |                    | Easy       | BinaryTree    | Star |
 | 145  | binary tree postorder traversal                    |                    | Easy       | BinaryTree    | Star |
 | 151  | reverse words in a string                          | 翻转字符串里的单词 | Middle     | String        | Star |
@@ -23,6 +23,7 @@
 | 199  | binary tree right side view                        |                    | Middle     | BinaryTree    | Star |
 | 206  | reverse linked list                                | 翻转链表           | Easy       | List          | Star |
 | 209  | minimum size subarray sum                          | 长度最小子数组     | Middle     | 2-Pointer     | Star |
+| 216  | combination sum 3                                  | 组合求和           | Middle     | Backtrace     |      |
 | 226  | invert binary tree                                 | 翻转二叉树         | Easy       | BinaryTree    |      |
 | 232  | implement queue using stacks                       | 用栈实现队列       | Easy       | Stack         | Star |
 | 237  | delete node in a linked list                       |                    | Middle     | List          | Star |
@@ -30,7 +31,7 @@
 | 344  | reverse string                                     | 翻转字符串         | Easy       | 2-Pointer     |      |
 | 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
 | 394  | decode string                                      |                    | Middle     | Stack         | Star |
-| 541  | reverse string ii                                  | 翻转字符串 2       | Easy       | 2-Pointer     |      |
+| 541  | reverse string 2                                   | 翻转字符串 2       | Easy       | 2-Pointer     |      |
 | 559  | maximum depth of n ary tree                        | 树的深度           | Easy       | Tree          |      |
 | 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
 | 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
@@ -79,3 +80,4 @@
 #### 77 数字组合
 
 一道最经典的回溯法题目。暴力写不出来，只能用回溯法。回溯法有模版可以套进去，但需要留意这个题可以考虑通过剪枝的办法加速。
+类似的题目还有 216

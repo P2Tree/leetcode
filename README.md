@@ -10,6 +10,7 @@
 | 27   | emove element                                      | 移除元素           | Easy       | 2-Pointer     |      |
 | 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
+| 77   | combinations                                       | 数字组合           | Middle     | Backtrace     | Star |
 | 86   | partition list                                     |                    | Middle     | List          |      |
 | 94   | binary tree inorder traversal                      |                    | Easy       | BinaryTree    | Star |
 | 102  | binary tree level order traversal                  | 二叉树层序遍历     | Middle     | BinaryTree    | Star |
@@ -70,3 +71,11 @@
 
 也就是每层的节点，左右交换一下。这道题唯一需要想到的就是翻转整个二叉树就是翻转其中每一个节点的两个子节点。
 然后它就变成了一道二叉树遍历的题。
+
+### 回溯法
+
+回溯法解决用暴力破解很难或无法写出的题目。回溯法本身也是暴力枚举，但它把一层循环替换为递归查找。
+
+#### 77 数字组合
+
+一道最经典的回溯法题目。暴力写不出来，只能用回溯法。回溯法有模版可以套进去，但需要留意这个题可以考虑通过剪枝的办法加速。

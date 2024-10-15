@@ -4,6 +4,7 @@
 | ---- | -------------------------------------------------- | ------------------ | ---------- | ------------- | ---- |
 | 1    | two sum                                            | 两数之和           | Easy       | Hash          |      |
 | 9    | palindrome number                                  |                    | Easy       |               | Star |
+| 17   | letter combinations of a phone number              | 拨号字母组合       | Middle     | Backtrace     |      |
 | 20   | valid parentheses                                  | 有效的括号         | Easy       | Stack         |      |
 | 21   | merge two sorted lists                             |                    | Easy       | List          |      |
 | 26   | remove duplicates from sorted array                |                    | Easy       | 2-Pointer     |      |

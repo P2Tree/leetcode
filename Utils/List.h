@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <set>
 #include <vector>
 
 struct ListNode {
@@ -77,9 +78,18 @@ public:
 
   friend std::ostream &operator<<(std::ostream &os, const List &list) {
     ListNode *p = list.head;
+    std::set<ListNode *> saveNode;
     while (p != nullptr) {
-      os << p->val << " ";
+      saveNode.insert(p);
+      os << p->val << " -> ";
       p = p->next;
+      if (std::find(saveNode.begin(), saveNode.end(), p) != saveNode.end()) {
+        os << "(" << p->val << ")";
+        break;
+      }
+    }
+    if (p == nullptr) {
+      os << "(null)";
     }
     return os;
   }
@@ -96,6 +106,8 @@ public:
     }
     return nullptr;
   }
+
+  operator ListNode *() const { return head; }
 
 private:
   ListNode *head;

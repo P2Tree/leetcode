@@ -17,6 +17,7 @@
 | 102  | binary tree level order traversal                  | 二叉树层序遍历     | Middle     | BinaryTree    | Star |
 | 104  | maximum depth of binary tree                       | 二叉树深度         | Easy       | BinaryTree    |      |
 | 107  | binary tree level order traversal 2                |                    | Middle     | BinaryTree    |      |
+| 141  | linked list cycle                                  | 环形链表           | Easy       | Link          | Star |
 | 144  | binary tree preorder traversal                     |                    | Easy       | BinaryTree    | Star |
 | 145  | binary tree postorder traversal                    |                    | Easy       | BinaryTree    | Star |
 | 151  | reverse words in a string                          | 翻转字符串里的单词 | Middle     | String        | Star |
@@ -42,6 +43,12 @@
 | 3142 | check if grid satisfies conditions                 |                    | Easy       | Simulation    |      |
 
 ## 笔记
+
+### 链表
+
+#### 141 环形链表中掌握快慢指针
+
+这道题是我毕业那会儿找工作时被考过的一道题，总之还是一个思路，先意识到不使用辅助容器，用两个指针做，其次想到快慢指针的工作原理。
 
 ### 字符串
 

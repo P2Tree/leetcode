@@ -18,6 +18,7 @@
 | 104  | maximum depth of binary tree                       | 二叉树深度         | Easy       | BinaryTree    |      |
 | 107  | binary tree level order traversal 2                |                    | Middle     | BinaryTree    |      |
 | 141  | linked list cycle                                  | 环形链表           | Easy       | Link          | Star |
+| 142  | linked list cycle 2                                | 环形链表求入口     | Middle     | Link          |      |
 | 144  | binary tree preorder traversal                     |                    | Easy       | BinaryTree    | Star |
 | 145  | binary tree postorder traversal                    |                    | Easy       | BinaryTree    | Star |
 | 151  | reverse words in a string                          | 翻转字符串里的单词 | Middle     | String        | Star |

@@ -69,10 +69,13 @@ public:
 
   ~List() {
     ListNode *p;
-    while (head != nullptr) {
+    std::set<ListNode *> deletedNode;
+    while (head != nullptr && std::find(deletedNode.begin(), deletedNode.end(),
+                                        head) == deletedNode.end()) {
       p = head;
       head = head->next;
       delete p;
+      deletedNode.insert(p);
     }
   }
 

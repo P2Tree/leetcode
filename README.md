@@ -34,6 +34,7 @@
 | 344  | reverse string                                     | 翻转字符串         | Easy       | 2-Pointer     |      |
 | 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
 | 394  | decode string                                      |                    | Middle     | Stack         | Star |
+| 455  | assign cookies                                     | 给孩子们分配饼干   | Easy       | Greedy        | Star |
 | 541  | reverse string 2                                   | 翻转字符串 2       | Easy       | 2-Pointer     |      |
 | 559  | maximum depth of n ary tree                        | 树的深度           | Easy       | Tree          |      |
 | 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
@@ -90,3 +91,13 @@
 
 一道最经典的回溯法题目。暴力写不出来，只能用回溯法。回溯法有模版可以套进去，但需要留意这个题可以考虑通过剪枝的办法加速。
 类似的题目还有 216
+
+### 贪心法
+
+贪心法没有固定的解题套路，但有统一的思维，就是全局最优解的达成是每一部局部最优解的累积。
+有一些题，局部最优并不能达成全局最优，那就不能用贪心法，只能用动态规划。
+贪心法的关键是想清楚局部最优是什么（当前这一步，最好的策略是什么）。
+
+#### 455 给孩子们分饼干
+
+一道贪心法的简单题。想清楚局部最优是把最大的饼干给胃口最大的孩子，或者把最小的饼干给胃口最小的孩子，这样都在局部时不会造成浪费。

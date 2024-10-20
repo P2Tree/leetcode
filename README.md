@@ -33,6 +33,7 @@
 | 242  | valid anagram                                      | 字母异位词         | Easy       | Map           |      |
 | 344  | reverse string                                     | 翻转字符串         | Easy       | 2-Pointer     |      |
 | 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
+| 376  | wiggle subsequence                                 | 摆动子序列         | Middle     | Greedy        |      |
 | 394  | decode string                                      |                    | Middle     | Stack         | Star |
 | 455  | assign cookies                                     | 给孩子们分配饼干   | Easy       | Greedy        | Star |
 | 541  | reverse string 2                                   | 翻转字符串 2       | Easy       | 2-Pointer     |      |

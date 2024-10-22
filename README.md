@@ -12,6 +12,7 @@
 | 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
 | 53   | maximum subarray                                   | 最大和子序列       | Middle     | Greedy        | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
+| 70   | climbing stairs                                    | 爬楼梯的方法       | Easy       | DP            | Star |
 | 77   | combinations                                       | 数字组合           | Middle     | Backtrace     | Star |
 | 86   | partition list                                     |                    | Middle     | List          |      |
 | 94   | binary tree inorder traversal                      |                    | Easy       | BinaryTree    | Star |
@@ -108,3 +109,19 @@
 #### 53 最大和子序列
 
 局部最优是确保当前累积的值对后续的累积不产生副作用。我们的目标是让累积和尽可能大，所以如果当前累积和成为负数，那他对未来的累积就产生了副作用。
+
+### 动态规划
+
+动态规划简单来说，就是结果依赖于之前状态的推导。我之前研究过路径规划算法，就是动态规划问题，当前往哪里走，取决于之前的先验知识。
+做动态规划的题，需要套入 5 步：
+
+1. 确定动态规划数组的物理意义（即某个下标处的值/状态是什么意义）
+2. 动态规划状态递推公式
+3. 由第 2 步，再决定需要做初始化的状态有哪些
+4. 决定好遍历的方向
+5. 举例子来验证是否可行
+   做题时，也可以把动态规划数组打出来，和自己举例子的结果对比，看哪里存在问题。
+
+#### 70 爬楼梯的方法
+
+这道题比较简单，是动态规划的入门题，曾经被面试考到过。他递推公式就是斐波那契数列，但需要掌握方法。

@@ -10,6 +10,7 @@
 | 26   | remove duplicates from sorted array                |                    | Easy       | 2-Pointer     |      |
 | 27   | emove element                                      | 移除元素           | Easy       | 2-Pointer     |      |
 | 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
+| 53   | maximum subarray                                   | 最大和子序列       | Middle     | Greedy        | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
 | 77   | combinations                                       | 数字组合           | Middle     | Backtrace     | Star |
 | 86   | partition list                                     |                    | Middle     | List          |      |
@@ -102,3 +103,7 @@
 #### 455 给孩子们分饼干
 
 一道贪心法的简单题。想清楚局部最优是把最大的饼干给胃口最大的孩子，或者把最小的饼干给胃口最小的孩子，这样都在局部时不会造成浪费。
+
+#### 53 最大和子序列
+
+局部最优是确保当前累积的值对后续的累积不产生副作用。我们的目标是让累积和尽可能大，所以如果当前累积和成为负数，那他对未来的累积就产生了副作用。

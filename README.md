@@ -44,6 +44,7 @@
 | 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
 | 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
 | 704  | binary search                                      | 二分查找           | Easy       | Search        | Star |
+| 746  | min cost climbing stairs                           | 爬楼梯的成本       | Easy       | DP            |      |
 | 977  | squares of a sorted array                          | 有序数组的平方     | Easy       | 2-Pointer     |      |
 | 1002 | find common characters                             | 查找常用字符       | Easy       | Hash          |      |
 | 3142 | check if grid satisfies conditions                 |                    | Easy       | Simulation    |      |
@@ -125,3 +126,4 @@
 #### 70 爬楼梯的方法
 
 这道题比较简单，是动态规划的入门题，曾经被面试考到过。他递推公式就是斐波那契数列，但需要掌握方法。
+类似的题还有 746

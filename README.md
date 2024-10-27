@@ -44,12 +44,22 @@
 | 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
 | 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
 | 704  | binary search                                      | 二分查找           | Easy       | Search        | Star |
+| 739  | daily temperatures                                 | 下一个温度高的日子 | Middle     | Stack         | Star |
 | 746  | min cost climbing stairs                           | 爬楼梯的成本       | Easy       | DP            |      |
 | 977  | squares of a sorted array                          | 有序数组的平方     | Easy       | 2-Pointer     |      |
 | 1002 | find common characters                             | 查找常用字符       | Easy       | Hash          |      |
 | 3142 | check if grid satisfies conditions                 |                    | Easy       | Simulation    |      |
 
 ## 笔记
+
+### 栈
+
+大多数用栈能解决的问题都很容易判断，而且一旦想出思路就会很容易写出代码，多刷题自然就有感觉了。
+
+#### 739 下一个温度高的日子
+
+这个题用暴力写法复杂度是 O(n^2)，而且面试时并不会考察暴力写法，它可以用栈做，但又不那么明显。
+这种栈叫单调栈，栈中保存日期的下标，任何时刻，栈中日期对应的温度排序是单调的。
 
 ### 链表
 

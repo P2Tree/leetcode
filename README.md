@@ -38,6 +38,7 @@
 | 376  | wiggle subsequence                                 | 摆动子序列         | Middle     | Greedy        |      |
 | 394  | decode string                                      |                    | Middle     | Stack         | Star |
 | 455  | assign cookies                                     | 给孩子们分配饼干   | Easy       | Greedy        | Star |
+| 496  | next greater element i                             | 下一个更大的元素   | Easy       | Stack         |      |
 | 509  | fibonacci number                                   | 斐波那契数列       | Easy       | DP            |      |
 | 541  | reverse string 2                                   | 翻转字符串 2       | Easy       | 2-Pointer     |      |
 | 559  | maximum depth of n ary tree                        | 树的深度           | Easy       | Tree          |      |
@@ -60,6 +61,7 @@
 
 这个题用暴力写法复杂度是 O(n^2)，而且面试时并不会考察暴力写法，它可以用栈做，但又不那么明显。
 这种栈叫单调栈，栈中保存日期的下标，任何时刻，栈中日期对应的温度排序是单调的。
+记住，凡是题目要求求解下一个更大/更小的元素位置，就用单调栈，类似的题目还有 496。
 
 ### 链表
 

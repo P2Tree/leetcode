@@ -10,6 +10,7 @@
 | 26   | remove duplicates from sorted array                |                    | Easy       | 2-Pointer     |      |
 | 27   | emove element                                      | 移除元素           | Easy       | 2-Pointer     |      |
 | 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
+| 42   | trapping rain water                                | 接雨水             | Hard       | Stack         | Star |
 | 53   | maximum subarray                                   | 最大和子序列       | Middle     | Greedy        | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
 | 70   | climbing stairs                                    | 爬楼梯的方法       | Easy       | DP            | Star |
@@ -62,6 +63,13 @@
 这个题用暴力写法复杂度是 O(n^2)，而且面试时并不会考察暴力写法，它可以用栈做，但又不那么明显。
 这种栈叫单调栈，栈中保存日期的下标，任何时刻，栈中日期对应的温度排序是单调的。
 记住，凡是题目要求求解下一个更大/更小的元素位置，就用单调栈，类似的题目还有 496。
+
+#### 42 接雨水
+
+一道困难题，在使用单调栈的基础上，需要多考虑几个问题，最重要的是想对如何计算面积。
+面积要一层一层算，比如 2 1 0 3，处理 0 时，第一次计算 1 0 3 接的雨水是 1 _ 1 = 1；
+然后后一步处理 1 0 时，第二次计算 2 1 0 3 接的雨水是 2 _ 1 = 2；我认为这是最难想明白的。
+这道题常在面试中被问到，第一步是和面试官解释清楚你的思路，即使是暴力解法也可以。
 
 ### 链表
 

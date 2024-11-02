@@ -1,56 +1,57 @@
 # LeetCode
 
-| #    | Title                                              | Title CN           | Difficulty | Tag           | Mark |
-| ---- | -------------------------------------------------- | ------------------ | ---------- | ------------- | ---- |
-| 1    | two sum                                            | 两数之和           | Easy       | Hash          |      |
-| 9    | palindrome number                                  |                    | Easy       |               | Star |
-| 17   | letter combinations of a phone number              | 拨号字母组合       | Middle     | Backtrace     |      |
-| 20   | valid parentheses                                  | 有效的括号         | Easy       | Stack         |      |
-| 21   | merge two sorted lists                             |                    | Easy       | List          |      |
-| 26   | remove duplicates from sorted array                |                    | Easy       | 2-Pointer     |      |
-| 27   | emove element                                      | 移除元素           | Easy       | 2-Pointer     |      |
-| 28   | find the index of the first occurrence in a string |                    | Easy       | Algorithm:KMP | Star |
-| 42   | trapping rain water                                | 接雨水             | Hard       | Stack         | Star |
-| 53   | maximum subarray                                   | 最大和子序列       | Middle     | Greedy        | Star |
-| 59   | spiral matrix 2                                    | 螺旋矩阵 2         | Middle     | Simulation    |      |
-| 70   | climbing stairs                                    | 爬楼梯的方法       | Easy       | DP            | Star |
-| 77   | combinations                                       | 数字组合           | Middle     | Backtrace     | Star |
-| 86   | partition list                                     |                    | Middle     | List          |      |
-| 94   | binary tree inorder traversal                      |                    | Easy       | BinaryTree    | Star |
-| 102  | binary tree level order traversal                  | 二叉树层序遍历     | Middle     | BinaryTree    | Star |
-| 104  | maximum depth of binary tree                       | 二叉树深度         | Easy       | BinaryTree    |      |
-| 107  | binary tree level order traversal 2                |                    | Middle     | BinaryTree    |      |
-| 141  | linked list cycle                                  | 环形链表           | Easy       | Link          | Star |
-| 142  | linked list cycle 2                                | 环形链表求入口     | Middle     | Link          |      |
-| 144  | binary tree preorder traversal                     |                    | Easy       | BinaryTree    | Star |
-| 145  | binary tree postorder traversal                    |                    | Easy       | BinaryTree    | Star |
-| 151  | reverse words in a string                          | 翻转字符串里的单词 | Middle     | String        | Star |
-| 155  | min stack                                          |                    | Easy       | Stack         |      |
-| 199  | binary tree right side view                        |                    | Middle     | BinaryTree    | Star |
-| 206  | reverse linked list                                | 翻转链表           | Easy       | List          | Star |
-| 209  | minimum size subarray sum                          | 长度最小子数组     | Middle     | 2-Pointer     | Star |
-| 216  | combination sum 3                                  | 组合求和           | Middle     | Backtrace     |      |
-| 226  | invert binary tree                                 | 翻转二叉树         | Easy       | BinaryTree    |      |
-| 232  | implement queue using stacks                       | 用栈实现队列       | Easy       | Stack         | Star |
-| 237  | delete node in a linked list                       |                    | Middle     | List          | Star |
-| 242  | valid anagram                                      | 字母异位词         | Easy       | Map           |      |
-| 344  | reverse string                                     | 翻转字符串         | Easy       | 2-Pointer     |      |
-| 349  | intersection of two arrays                         | 数组的交集         | Easy       | Hash          |      |
-| 376  | wiggle subsequence                                 | 摆动子序列         | Middle     | Greedy        |      |
-| 394  | decode string                                      |                    | Middle     | Stack         | Star |
-| 455  | assign cookies                                     | 给孩子们分配饼干   | Easy       | Greedy        | Star |
-| 496  | next greater element i                             | 下一个更大的元素   | Easy       | Stack         |      |
-| 509  | fibonacci number                                   | 斐波那契数列       | Easy       | DP            |      |
-| 541  | reverse string 2                                   | 翻转字符串 2       | Easy       | 2-Pointer     |      |
-| 559  | maximum depth of n ary tree                        | 树的深度           | Easy       | Tree          |      |
-| 589  | n ary tree preorder traversal                      |                    | Easy       | Tree          |      |
-| 590  | n ary tree postorder traversal                     |                    | Easy       | Tree          |      |
-| 704  | binary search                                      | 二分查找           | Easy       | Search        | Star |
-| 739  | daily temperatures                                 | 下一个温度高的日子 | Middle     | Stack         | Star |
-| 746  | min cost climbing stairs                           | 爬楼梯的成本       | Easy       | DP            |      |
-| 977  | squares of a sorted array                          | 有序数组的平方     | Easy       | 2-Pointer     |      |
-| 1002 | find common characters                             | 查找常用字符       | Easy       | Hash          |      |
-| 3142 | check if grid satisfies conditions                 |                    | Easy       | Simulation    |      |
+| #    | Title                                              | Title CN               | Difficulty | Tag           | Mark |
+| ---- | -------------------------------------------------- | ---------------------- | ---------- | ------------- | ---- |
+| 1    | two sum                                            | 两数之和               | Easy       | Hash          |      |
+| 9    | palindrome number                                  |                        | Easy       |               | Star |
+| 17   | letter combinations of a phone number              | 拨号字母组合           | Middle     | Backtrace     |      |
+| 20   | valid parentheses                                  | 有效的括号             | Easy       | Stack         |      |
+| 21   | merge two sorted lists                             |                        | Easy       | List          |      |
+| 26   | remove duplicates from sorted array                |                        | Easy       | 2-Pointer     |      |
+| 27   | emove element                                      | 移除元素               | Easy       | 2-Pointer     |      |
+| 28   | find the index of the first occurrence in a string |                        | Easy       | Algorithm:KMP | Star |
+| 42   | trapping rain water                                | 接雨水                 | Hard       | Stack         | Star |
+| 53   | maximum subarray                                   | 最大和子序列           | Middle     | Greedy        | Star |
+| 59   | spiral matrix 2                                    | 螺旋矩阵 2             | Middle     | Simulation    |      |
+| 70   | climbing stairs                                    | 爬楼梯的方法           | Easy       | DP            | Star |
+| 77   | combinations                                       | 数字组合               | Middle     | Backtrace     | Star |
+| 86   | partition list                                     |                        | Middle     | List          |      |
+| 94   | binary tree inorder traversal                      |                        | Easy       | BinaryTree    | Star |
+| 102  | binary tree level order traversal                  | 二叉树层序遍历         | Middle     | BinaryTree    | Star |
+| 104  | maximum depth of binary tree                       | 二叉树深度             | Easy       | BinaryTree    |      |
+| 107  | binary tree level order traversal 2                |                        | Middle     | BinaryTree    |      |
+| 141  | linked list cycle                                  | 环形链表               | Easy       | Link          | Star |
+| 142  | linked list cycle 2                                | 环形链表求入口         | Middle     | Link          |      |
+| 144  | binary tree preorder traversal                     |                        | Easy       | BinaryTree    | Star |
+| 145  | binary tree postorder traversal                    |                        | Easy       | BinaryTree    | Star |
+| 151  | reverse words in a string                          | 翻转字符串里的单词     | Middle     | String        | Star |
+| 155  | min stack                                          |                        | Easy       | Stack         |      |
+| 199  | binary tree right side view                        |                        | Middle     | BinaryTree    | Star |
+| 206  | reverse linked list                                | 翻转链表               | Easy       | List          | Star |
+| 209  | minimum size subarray sum                          | 长度最小子数组         | Middle     | 2-Pointer     | Star |
+| 216  | combination sum 3                                  | 组合求和               | Middle     | Backtrace     |      |
+| 226  | invert binary tree                                 | 翻转二叉树             | Easy       | BinaryTree    |      |
+| 232  | implement queue using stacks                       | 用栈实现队列           | Easy       | Stack         | Star |
+| 237  | delete node in a linked list                       |                        | Middle     | List          | Star |
+| 242  | valid anagram                                      | 字母异位词             | Easy       | Map           |      |
+| 344  | reverse string                                     | 翻转字符串             | Easy       | 2-Pointer     |      |
+| 349  | intersection of two arrays                         | 数组的交集             | Easy       | Hash          |      |
+| 376  | wiggle subsequence                                 | 摆动子序列             | Middle     | Greedy        |      |
+| 394  | decode string                                      |                        | Middle     | Stack         | Star |
+| 455  | assign cookies                                     | 给孩子们分配饼干       | Easy       | Greedy        | Star |
+| 496  | next greater element i                             | 下一个更大的元素       | Easy       | Stack         |      |
+| 509  | fibonacci number                                   | 斐波那契数列           | Easy       | DP            |      |
+| 541  | reverse string 2                                   | 翻转字符串 2           | Easy       | 2-Pointer     |      |
+| 559  | maximum depth of n ary tree                        | 树的深度               | Easy       | Tree          |      |
+| 589  | n ary tree preorder traversal                      |                        | Easy       | Tree          |      |
+| 590  | n ary tree postorder traversal                     |                        | Easy       | Tree          |      |
+| 704  | binary search                                      | 二分查找               | Easy       | Search        | Star |
+| 739  | daily temperatures                                 | 下一个温度高的日子     | Middle     | Stack         | Star |
+| 746  | min cost climbing stairs                           | 爬楼梯的成本           | Easy       | DP            |      |
+| 797  | all paths from source to target                    | 有向无环图所有简单路径 | Middle     | Graph         | Star |
+| 977  | squares of a sorted array                          | 有序数组的平方         | Easy       | 2-Pointer     |      |
+| 1002 | find common characters                             | 查找常用字符           | Easy       | Hash          |      |
+| 3142 | check if grid satisfies conditions                 |                        | Easy       | Simulation    |      |
 
 ## 笔记
 
@@ -117,7 +118,7 @@
 ### 回溯法
 
 回溯法解决用暴力破解很难或无法写出的题目。回溯法本身也是暴力枚举，但它把一层循环替换为递归查找。
-回溯法是一种特殊的递归函数实现，同样需要满足编写递归函数的几个步骤。回溯法中，每次递归内部会有一个循环，遍历当前次所有需要处理的情况，在每一次遍历中递归调用自己。
+回溯法是一种深度优先搜索算法，是用递归函数实现的，同样需要满足编写递归函数的几个步骤。回溯法中，每次递归内部会有一个循环，遍历当前次所有需要处理的情况，在每一次遍历中递归调用自己。
 除此之外，回溯法需要在递归调用自身后，恢复调用状态，也就是“回溯”的由来。
 
 二叉树深度遍历的递归写法，是一种特殊的回溯写法，可以看作是回溯中循环体只有两个元素的回溯法。
@@ -157,3 +158,9 @@
 
 这道题比较简单，是动态规划的入门题，曾经被面试考到过。他递推公式就是斐波那契数列，但需要掌握方法。
 类似的题还有 746
+
+### 图
+
+#### 797 有向无环图所有简单路径
+
+图的遍历通常都是面试中的常考题，所以需要掌握。思路比较简单，就是递归算法，但要注意图的存储结构。

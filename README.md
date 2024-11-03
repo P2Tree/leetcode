@@ -27,6 +27,7 @@
 | 151  | reverse words in a string                          | 翻转字符串里的单词     | Middle     | String        | Star |
 | 155  | min stack                                          |                        | Easy       | Stack         |      |
 | 199  | binary tree right side view                        |                        | Middle     | BinaryTree    | Star |
+| 200  | number of islands                                  | 有多少个岛屿           | Middle     | Graph         | Star |
 | 206  | reverse linked list                                | 翻转链表               | Easy       | List          | Star |
 | 209  | minimum size subarray sum                          | 长度最小子数组         | Middle     | 2-Pointer     | Star |
 | 216  | combination sum 3                                  | 组合求和               | Middle     | Backtrace     |      |
@@ -164,3 +165,4 @@
 #### 797 有向无环图所有简单路径
 
 图的遍历通常都是面试中的常考题，所以需要掌握。思路比较简单，就是递归算法，但要注意图的存储结构。
+另一个类似的题目是 200

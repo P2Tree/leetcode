@@ -46,6 +46,7 @@
 | 559  | maximum depth of n ary tree                        | 树的深度               | Easy       | Tree          |      |
 | 589  | n ary tree preorder traversal                      |                        | Easy       | Tree          |      |
 | 590  | n ary tree postorder traversal                     |                        | Easy       | Tree          |      |
+| 695  | max area of island                                 | 最大面积的岛屿         | Middle     | Graph         |      |
 | 704  | binary search                                      | 二分查找               | Easy       | Search        | Star |
 | 739  | daily temperatures                                 | 下一个温度高的日子     | Middle     | Stack         | Star |
 | 746  | min cost climbing stairs                           | 爬楼梯的成本           | Easy       | DP            |      |

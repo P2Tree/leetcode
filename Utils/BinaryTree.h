@@ -28,6 +28,8 @@ public:
     for (auto i = 0; i < values.size(); i++) {
       auto v = values[i];
       if (v == 0) {
+        q.push(nullptr);
+        q.push(nullptr);
         q.pop();
         continue;
       }

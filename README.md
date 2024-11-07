@@ -17,6 +17,7 @@
 | 77   | combinations                                       | 数字组合               | Middle     | Backtrace     | Star |
 | 86   | partition list                                     |                        | Middle     | List          |      |
 | 94   | binary tree inorder traversal                      |                        | Easy       | BinaryTree    | Star |
+| 101  | symmetric tree                                     | 对称二叉树             | Easy       | BinaryTree    |      |
 | 102  | binary tree level order traversal                  | 二叉树层序遍历         | Middle     | BinaryTree    | Star |
 | 104  | maximum depth of binary tree                       | 二叉树深度             | Easy       | BinaryTree    |      |
 | 107  | binary tree level order traversal 2                |                        | Middle     | BinaryTree    |      |

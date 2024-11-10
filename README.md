@@ -33,6 +33,7 @@
 | 206  | reverse linked list                                | 翻转链表               | Easy       | List          | Star |
 | 209  | minimum size subarray sum                          | 长度最小子数组         | Middle     | 2-Pointer     | Star |
 | 216  | combination sum 3                                  | 组合求和               | Middle     | Backtrace     |      |
+| 222  | count complete tree nodes                          | 统计完全二叉树的节点数 | Easy       | BinaryTree    |      |
 | 226  | invert binary tree                                 | 翻转二叉树             | Easy       | BinaryTree    |      |
 | 232  | implement queue using stacks                       | 用栈实现队列           | Easy       | Stack         | Star |
 | 237  | delete node in a linked list                       |                        | Middle     | List          | Star |

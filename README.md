@@ -39,6 +39,7 @@
 | 232  | implement queue using stacks                       | 用栈实现队列           | Easy       | Stack         | Star |
 | 237  | delete node in a linked list                       |                        | Middle     | List          | Star |
 | 242  | valid anagram                                      | 字母异位词             | Easy       | Map           |      |
+| 257  | binary tree paths                                  | 二叉树全部路径         | Easy       | BinaryTree    |      |
 | 344  | reverse string                                     | 翻转字符串             | Easy       | 2-Pointer     |      |
 | 349  | intersection of two arrays                         | 数组的交集             | Easy       | Hash          |      |
 | 376  | wiggle subsequence                                 | 摆动子序列             | Middle     | Greedy        |      |

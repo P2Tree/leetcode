@@ -10,6 +10,7 @@
 | 26   | remove duplicates from sorted array                |                        | Easy       | 2-Pointer     |      |
 | 27   | emove element                                      | 移除元素               | Easy       | 2-Pointer     |      |
 | 28   | find the index of the first occurrence in a string |                        | Easy       | Algorithm:KMP | Star |
+| 39   | combination sum                                    | 求和组合的所有情况     | Middle     | Backtrace     |      |
 | 42   | trapping rain water                                | 接雨水                 | Hard       | Stack         | Star |
 | 53   | maximum subarray                                   | 最大和子序列           | Middle     | Greedy        | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2             | Middle     | Simulation    |      |

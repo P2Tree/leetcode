@@ -11,6 +11,7 @@
 | 27   | emove element                                      | 移除元素               | Easy       | 2-Pointer     |      |
 | 28   | find the index of the first occurrence in a string |                        | Easy       | Algorithm:KMP | Star |
 | 39   | combination sum                                    | 求和组合的所有情况     | Middle     | Backtrace     |      |
+| 40   | combination sum 2                                  | 求和组合的所有情况     | Middle     | Backtrace     | Star |
 | 42   | trapping rain water                                | 接雨水                 | Hard       | Stack         | Star |
 | 53   | maximum subarray                                   | 最大和子序列           | Middle     | Greedy        | Star |
 | 59   | spiral matrix 2                                    | 螺旋矩阵 2             | Middle     | Simulation    |      |
@@ -136,6 +137,16 @@
 
 一道最经典的回溯法题目。暴力写不出来，只能用回溯法。回溯法有模版可以套进去，但需要留意这个题可以考虑通过剪枝的办法加速。
 类似的题目还有 216
+
+#### 40 组合求和子集
+
+难理解。需要分清递归进去的已使用节点和同一层循环中的已使用节点。我的代码中，used 位为 true
+时，表示外层递归中使用了同值节点，used 位为 false
+时，表示同一层循环中前边迭代中已使用同一个值的节点。
+而递归方向的去重是通过 start 位置来控制的（注意每进一层 i+1），同一层循环中的去重是通过 used
+判断是否为 false 来控制的。
+这道题如果不去重，测试会超时。
+类似的题还有 39，但比 40 要简单很多。
 
 ### 贪心法
 

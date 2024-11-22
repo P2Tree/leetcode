@@ -26,6 +26,7 @@
 | 107  | binary tree level order traversal 2                |                        | Middle     | BinaryTree    |      |
 | 110  | balanced binary tree                               | 平衡二叉树             | Easy       | BinaryTree    |      |
 | 111  | minimum depth of binary tree                       | 二叉树最小深度         | Easy       | BinaryTree    |      |
+| 131  | palindrome partitioning                            | 回文子串集合           | Middle     | Backtrace     | Star |
 | 141  | linked list cycle                                  | 环形链表               | Easy       | Link          | Star |
 | 142  | linked list cycle 2                                | 环形链表求入口         | Middle     | Link          |      |
 | 144  | binary tree preorder traversal                     |                        | Easy       | BinaryTree    | Star |
@@ -147,6 +148,16 @@
 判断是否为 false 来控制的。
 这道题如果不去重，测试会超时。
 类似的题还有 39，但比 40 要简单很多。
+
+#### 131 回文子串求集合
+
+可以看作是一道困难题。有好几个需要想通的要点，才能做好这道题：
+
+1. 这道题也是一道组合求集合的问题，可以用回溯法
+2. 回溯的退出条件是当前层的开始切割线已经位于最末尾
+3. 切割一个子串是在循环体内整理的
+4. 如何判断回文子串
+   其中最难的是第 3 点。
 
 ### 贪心法
 

@@ -18,6 +18,7 @@
 | 70   | climbing stairs                                    | 爬楼梯的方法           | Easy       | DP            | Star |
 | 77   | combinations                                       | 数字组合               | Middle     | Backtrace     | Star |
 | 86   | partition list                                     |                        | Middle     | List          |      |
+| 93   | restore ip addresses                               | 有效 ip 地址的所有情况 | Middle     | Backtrace     |      |
 | 94   | binary tree inorder traversal                      |                        | Easy       | BinaryTree    | Star |
 | 100  | same tree                                          | 相同的二叉树比较       | Easy       | BinaryTree    |      |
 | 101  | symmetric tree                                     | 对称二叉树             | Easy       | BinaryTree    |      |
@@ -151,6 +152,7 @@
 
 #### 131 回文子串求集合
 
+类似的题还有 93 有效 ip 地址。
 可以看作是一道困难题。有好几个需要想通的要点，才能做好这道题：
 
 1. 这道题也是一道组合求集合的问题，可以用回溯法
